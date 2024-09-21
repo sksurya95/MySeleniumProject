@@ -1,0 +1,17 @@
+To automate by 15th of September  :
+1. Self Registration
+2. Set Password
+3. Company Registration
+4. Add Machines
+5. New links validation
+6. If there is time (Multi language using single repo)
+
+
+***********************
+1. How to categorise and execute the respective test cases
+2. GIT backup
+3. Jenkins Integration (How it runs in the real world) 
+
+***********************
+
+
