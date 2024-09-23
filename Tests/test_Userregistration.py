@@ -9,6 +9,7 @@ from POM.self_registration import Self_registration
 from POM.welcomepopup import wcpopup
 from Utilities.BaseClass import Customer_portal
 from Utilities.common_emails import outlook_signin, set_password
+from Utilities.common_homepage import homepage_ecm
 from Utilities.common_registration import self_registration, sru_validations, sru_form_validations, \
     getemail_from_config, random_numbers, company, random_email
 from Utilities.common_welcomepopup import handling_popup
@@ -41,6 +42,13 @@ class TestUserReg(Customer_portal):
     def test_companyregistration(self):
         company(self.driver, "CRT", "CRT01" , "test@test.com","123" , "CRTCity",  "CRT Street" )
 
-    def test_random_email_generation(self):
-        random_email()
+    # def test_random_email_generation(self):
+    #     random_email()
+
+    def test_ECMHomepage(self):
+        homepage = Homepage(self.driver)
+        wait = WebDriverWait(self.driver, 20)
+        wait.until(EC.visibility_of_element_located(homepage.Explore))
+        homepage_ecm(self.driver)
+
 

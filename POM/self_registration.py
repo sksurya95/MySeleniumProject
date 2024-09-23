@@ -22,6 +22,7 @@ class Self_registration:
     cityinput=(By.XPATH,"//input[@name='cityinput']")
     street=(By.XPATH,"//input[@name='streetinput']")
     Submit=(By.XPATH,"//button[text()='Submit']")
+    Close=(By.XPATH,"//button[text()='Close']")
 
     def input_firstname(self):
         return self.driver.find_element(*Self_registration.FirstName)
@@ -72,3 +73,5 @@ class Self_registration:
     def click_submit(self):
         return self.driver.find_element(*Self_registration.Submit)
 
+    def click_close(self):
+        return self.driver.find_element(*Self_registration.Close)

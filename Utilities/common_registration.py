@@ -97,8 +97,11 @@ def company(driver , cname,rno , bemail,postal, cityinput, street):
     register.input_billingemail().send_keys(bemail)
     register.input_postalinput().send_keys(postal)
     register.input_city().send_keys(cityinput)
-    register.input_postalinput().send_keys(street)
+    register.input_street().send_keys(street)
     register.click_submit().click()
+    wait.until(EC.visibility_of_element_located(register.Close))
+    register.click_close().click()
 
 
 
+#Testabc
