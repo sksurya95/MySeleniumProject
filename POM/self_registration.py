@@ -17,6 +17,8 @@ class Self_registration:
     Registernow=(By.XPATH,"//button[text()='Register now']")
     companyname=(By.XPATH,"//input[@name='companynameinput']")
     regnumber=(By.XPATH,"//input[@name='regnumberinput']")
+    type=(By.XPATH,"//span[text()='Select type']")
+    registrationnum=(By.XPATH,"//span[@title='Registration number']")
     BillingEmail=(By.XPATH,"//input[@name='billingemail']")
     postinput=(By.XPATH,"//input[@name='postalinput']")
     cityinput=(By.XPATH,"//input[@name='cityinput']")
@@ -26,6 +28,7 @@ class Self_registration:
 
     def input_firstname(self):
         return self.driver.find_element(*Self_registration.FirstName)
+
 
     def input_lastname(self):
         return self.driver.find_element(*Self_registration.LastName)
@@ -54,6 +57,12 @@ class Self_registration:
 
     def input_companyname(self):
         return self.driver.find_element(*Self_registration.companyname)
+
+    def click_selecttype(self):
+        return self.driver.find_element(*Self_registration.type)
+
+    def click_regnumber(self):
+        return self.driver.find_element(*Self_registration.registrationnum)
 
     def input_registrationnumber(self):
         return self.driver.find_element(*Self_registration.regnumber)

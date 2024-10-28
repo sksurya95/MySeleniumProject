@@ -61,3 +61,10 @@ def cp(request):
 def credentials(request):
     password = os.getenv('New_Password')
     return {"password": password}
+
+# @pytest.fixture(scope="class")
+# def sfurl(request):
+#     sf_url= "https://test.salesforce.com/"
+#     driver = webdriver.Chrome(options=chrome_options)
+#     driver.get(sf_url)
+#     return driver

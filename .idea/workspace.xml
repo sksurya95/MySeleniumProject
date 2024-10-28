@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af409783-b50a-4a77-96b4-19997ae38d8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Utilities/common_homepage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilities/common_machines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POM/Machine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POM/salesforcepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utilities/common_salesforce.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Config/Config.py" beforeDir="false" afterPath="$PROJECT_DIR$/Config/Config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/POM/Homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/POM/Homepage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/POM/self_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/POM/self_registration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/test_Userregistration.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_Userregistration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utilities/common_homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/common_homepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utilities/common_machines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/common_machines.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utilities/common_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/common_registration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,6 +148,17 @@
       <updated>1722861338303</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
